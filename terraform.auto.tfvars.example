@@ -1,0 +1,4 @@
+okta_orgname = ""
+okta_baseurl = ""
+terraform_organization = ""
+terraform_owner = ""
