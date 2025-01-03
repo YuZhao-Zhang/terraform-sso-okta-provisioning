@@ -1,6 +1,6 @@
 # terraform-sso-okta-provisioning
 
-## This is an example that shows hows to automate onboarding and off boarding OKTA SSO users in HCP Terraform and Terraform Enterprise.
+This example shows how to automate the onboarding and offboarding of OKTA SSO users in HCP Terraform and Terraform Enterprise.
 
 
 ### Instructions for Use
@@ -20,20 +20,6 @@ Two Terraform providers are used [tfe](https://registry.terraform.io/providers/h
 `terraform_organization` The name of the organization to add users to
 
 `terraform_owner` The email of the Terraform account owner
-
-variable "okta_baseurl" {
-  description = "This is the domain of your Okta account"
-  type        = string
-}
-variable "terraform_organization" {
-  description = "The name of the organization to add users to"
-  type        = string
-}
-
-variable "terraform_owner" {
-  description = "The email of the Terraform account owner"
-  type        = string
-}
 
 ## OKTA credentials
 OKTA_API_TOKEN
